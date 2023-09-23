@@ -22,6 +22,7 @@ const AddPostForm = () => {
       dispatch(postAdded(title, content, userId));
       setTitle("");
       setContent("");
+      setUserId("");
     }
   };
 
