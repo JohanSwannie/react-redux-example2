@@ -6,12 +6,11 @@ import { selectAllUsers } from "../users/usersSlice";
 
 const AddPostForm = () => {
   const dispatch = useDispatch();
+  const users = useSelector(selectAllUsers);
 
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [userId, setUserId] = useState("");
-
-  const users = useSelector(selectAllUsers);
 
   const onTitleChanged = (e) => setTitle(e.target.value);
   const onContentChanged = (e) => setContent(e.target.value);
