@@ -21,7 +21,7 @@ textarea,
 button,
 select {
   font: inherit;
-  margin-bottom: 1em;
+  margin-bottom: 1.1rem;
 }
 
 main {
