@@ -7,6 +7,7 @@ const initialState = [
     title: "The bold headed man with the black hat",
     content: "Bold headed people are mostly intelligent people",
     date: sub(new Date(), { minutes: 7 }).toISOString(),
+    userId: "2",
     reactions: {
       thumbsUp: 0,
       wow: 0,
@@ -20,6 +21,7 @@ const initialState = [
     title: "Peter Pan and the Pirates",
     content: "They sail the seven seas in search of many treasures.",
     date: sub(new Date(), { minutes: 3 }).toISOString(),
+    userId: "3",
     reactions: {
       thumbsUp: 0,
       wow: 0,
