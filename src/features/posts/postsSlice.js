@@ -10,10 +10,9 @@ const initialState = [
     userId: "2",
     reactions: {
       thumbsUp: 0,
-      wow: 0,
+      thumbsDown: 0,
       heart: 0,
-      rocket: 0,
-      coffee: 0,
+      wow: 0,
     },
   },
   {
@@ -24,10 +23,9 @@ const initialState = [
     userId: "3",
     reactions: {
       thumbsUp: 0,
-      wow: 0,
+      thumbsDown: 0,
       heart: 0,
-      rocket: 0,
-      coffee: 0,
+      wow: 0,
     },
   },
 ];
@@ -50,10 +48,9 @@ const postsSlice = createSlice({
             userId,
             reactions: {
               thumbsUp: 0,
-              wow: 0,
+              thumbsDown: 0,
               heart: 0,
-              rocket: 0,
-              coffee: 0,
+              wow: 0,
             },
           },
         };
